@@ -32,7 +32,7 @@ uninstall:
 
 # Clean build artifacts
 clean:
-	rm -f $(TARGET)
+	rm -fr $(TARGET) *.dSYM
 
 # Run the program (query current input method)
 run: $(TARGET)
