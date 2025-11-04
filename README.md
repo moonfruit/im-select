@@ -9,6 +9,14 @@ This is a Swift implementation of [daipeihust/im-select](https://github.com/daip
 - Query current input method
 - Switch to a specified input method
 
+## Install
+
+### Using Homebrew
+
+```bash
+brew install moonfruit/tap/im-select
+```
+
 ## Build
 
 ### Using Make (Recommended)
@@ -68,6 +76,7 @@ Run without arguments to output the current input method ID:
 ```
 
 Example output:
+
 ```
 com.apple.keylayout.ABC
 ```
